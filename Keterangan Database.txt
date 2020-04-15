@@ -1,0 +1,14 @@
+nama database : db_survey
+
+tb_pengguna:
+- id int(10) A.i
+- nama varchar(50)
+- usia int(3)
+
+tb_soal:
+- id_soal int(5)
+- soal text
+- a varchar(30)
+- b varchar(30)
+- knc_jawaban varchar(30)
+- aktif enum('Y','N')
